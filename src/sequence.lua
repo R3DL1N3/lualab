@@ -1,6 +1,9 @@
+--- Lua sequences.
+-- @module sequence
+
 local sequence = {}
 
--- Check for improper sequence.
+--- Check for improper sequence.
 -- @tparam tab indexed Index-value pairs.
 -- @treturn ?integer Improper sequence index.
 function sequence.improper(indexed)
